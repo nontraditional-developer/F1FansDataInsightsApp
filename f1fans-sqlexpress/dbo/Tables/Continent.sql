@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Continent]
+(
+	[Id] VARCHAR(50) NOT NULL PRIMARY KEY,
+	[code] VARCHAR(10) NOT NULL,
+	[name] VARCHAR(50) NOT NULL,
+	[demonym] VARCHAR(50) NOT NULL
+)
